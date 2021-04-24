@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.forbitbd.porashona">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Porashona">
+        <activity android:name=".knowledge.GeneralKnowledgeActivity"></activity>
+        <activity android:name=".poem.PoemActivity" />
+        <activity android:name=".math.NamtaActivity" />
+        <activity android:name=".math.EnglishNumberActivity" />
+        <activity android:name=".math.BanglaNumberActivity" />
+        <activity android:name=".arabic.ArabicActivity" />
+        <activity android:name=".math.MathActivity" />
+        <activity android:name=".english.EnglishMonthActivity" />
+        <activity android:name=".english.EnglishSeasonActivity" />
+        <activity android:name=".english.SmallLetterActivity" />
+        <activity android:name=".english.CapitalLetterActivity" />
+        <activity android:name=".english.EnglishActivity" />
+        <activity android:name=".bangla.BanglaVowelSignActivity" />
+        <activity android:name=".bangla.BanglaMonthActivity" />
+        <activity android:name=".bangla.BanglaFolaActivity" />
+        <activity android:name=".bangla.SeasonActivity" />
+        <activity android:name=".bangla.BanglaConsonantActivity" />
+        <activity android:name=".bangla.BanglaVowelActivity" />
+        <activity android:name=".bangla.BanglaActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:background="#E1E1E1"
+    android:orientation="vertical"
+    tools:context=".bangla.SeasonActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/poralekha"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="4dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="গ্রীষ্ম"
+                android:textAppearance="@style/PlayFontStyle"
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="বর্ষা"
+                android:textAppearance="@style/PlayFontStyle"
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="শরৎ"
+                android:textAppearance="@style/PlayFontStyle"
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="হেমন্ত"
+                android:textAppearance="@style/PlayFontStyle"
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="শীত"
+                android:textAppearance="@style/PlayFontStyle"
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+        </com.google.android.material.card.MaterialCardView>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="126dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:elevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="বষন্ত"
+                android:textAppearance="@style/PlayFontStyle"
+                android:textColor="@color/orange"
+                android:textSize="60sp" />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</LinearLayout>
